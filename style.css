@@ -1,0 +1,152 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: 'SF Pro Display';
+}
+a{
+    text-decoration: none;
+    
+}
+/* section{
+    height: 730px;
+} */
+.container{
+    max-width: 1200px;
+}
+nav{
+    position: fixed;
+    display: flex;
+    
+    height: 70px;
+}
+nav a{
+    color: #fff;
+}
+nav img{
+    width: 13px;
+    height: 16px;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    list-style-type: none;
+}
+/* header */
+.iphone{
+    background-color: #FBFBFD;
+   
+}
+h1{
+    font-size: 56px;
+    line-height: 60px;
+
+}
+h3{
+    font-size: 28px;
+    line-height: 30px;
+
+}
+.di{
+    text-align: center;
+}
+/* .iphone a{
+    text-align: center;
+} */
+/* .le{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+} */
+.zur{
+    margin: 50px auto;
+    width: 100%;
+    height: 500px;
+}
+/* pro */
+.pro{
+    margin-top: 100px;
+}
+.pic{
+    background-image: url(./Image/14max.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* watch */   
+.zurag-watch{
+    background-image: url(./Image/watch.png);
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    line-height: 30px;
+    gap: 20px;
+}
+.col-2{
+    width: calc(100%/2 - 20px);
+}
+.col-5{
+    width: calc(100%/5 - 20px);
+}
+.zurag-watch-1{
+    background-image: url(./Image/watch1.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zurag-watch-2{
+    background-image: url(./Image/airPod.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zurag-watch-se{
+    background-image: url(./Image/se.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zurag-fitnes{
+    background-image: url(./Image/fitnes.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zurag-air{
+    background-image: url(./Image/air.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.zurag-card{
+    background-image: url(./Image/card.png);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* footer */
+.group{
+    background-image: url(./Image/group.png);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer li{
+    list-style-type: none;
+}
